@@ -41,7 +41,7 @@
     $('#zhezhao').addClass('active');
     // 获取视频元素并播放指定路径的视频文件
     var videoElement = document.getElementById('videoResumeC');
-    videoElement.src = 'img/【高燃!】112位多领域古代历史人物群像____百战成诗.【高燃!】112位多领域古代历史人物群像____百战成诗.1092710931.mp4';
+    videoElement.src = 'https://mangolinli.github.io/img_github/img/b4dd3d56f77383bde388ef08a6a7ac5a.mp4';
     videoElement.play();
 });
 
