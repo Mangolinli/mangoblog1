@@ -1,0 +1,27 @@
+site:
+  title: "mangoblog"
+  description: "A simple blog to share my thoughts and projects"
+  author: "mangolinlin"
+  theme: "minimal"
+
+pages:
+  - index.html
+  - home.html
+  - blog.html
+  - contact.html
+  - live.html
+  - resume.html
+  - showmd.html
+
+assets:
+  css: 
+    - css/styles.css
+  js:
+    - js/script.js
+  images:
+    - img/
+
+deploy:
+  provider: github-pages
+  branch: main
+  directory: /
