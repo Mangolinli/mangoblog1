@@ -138,12 +138,10 @@ document.onreadystatechange = function () {
           $('.lodding-wrap').css('display', 'none');
           clearInterval(timer);
         }
-      }, 100);
+      }, 1);
     });
   }
 };
-
-  
 
             //锚点定位初始化
             function bindEvenInit(){
